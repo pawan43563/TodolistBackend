@@ -83,7 +83,7 @@ Request on /tasks will give all the tasks
 
 
 
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/getalltasks.png)
+![alt text][getalltasks]
 
 
 
@@ -94,7 +94,7 @@ Request on /tasks with id will return the specified task details.
 ```
 /tasks/:id
 ```
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/getbyid.png)
+![alt text][gettaskbyid]
 
 **POST** 
 Request on /tasks/:id with valid request body will create new task.
@@ -114,7 +114,7 @@ Request on /tasks/:id with valid request body will create new task.
 ```
 
 
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/addnewtask.png)
+![alt text][addtask]
 
 **PATCH** 
 Request on /tasks with specified id  and valid request body  will update specified task.
@@ -133,7 +133,7 @@ Request on /tasks with specified id  and valid request body  will update specifi
 }
 ```
 
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/updatebyid.png)
+![alt text][updatetaskbyid]
 
 
 **DELETE** 
@@ -142,7 +142,8 @@ Request with specified id will delete the task from our file.
 ```
 /tasks/:id
 ```
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/deletetaskbyid.png)
+
+![alt text][deletetaskbyid]
 
 ### Project Structure
 
@@ -178,6 +179,9 @@ Request with specified id will delete the task from our file.
 
 Pawan Sharma - pawan.ps43563@gmail.com
 
-
-
+[getalltasks]:https://raw.githubusercontent.com/pawan43563/Images/main/getalltasks.png
+[gettaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/getbyid.png
+[addtask]:https://raw.githubusercontent.com/pawan43563/Images/main/addnewtask.png
+[updatetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/updatebyid.png
+[deletetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/deletetaskbyid.png
 
