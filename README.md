@@ -3,10 +3,10 @@
 
 
 <br />
-<p align="center">
+
   <h1>Todolist</h1>
 
-</p>
+
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -71,7 +71,7 @@ Make sure you have installed all of the following prerequisites on your machine:
 	
 ### Usage
 
-[!alt text](https://raw.githubusercontent.com/pawan43563/Images/main/addnewtask.png)
+
 	
 
 **GET** 
@@ -126,7 +126,7 @@ Request on /tasks with specified id  and valid request body  will update specifi
 
 ```json
 {
-	"content": "Will update Todo",
+	"content": "updated Content",
 	"createdAt": "Time at which task was created",
 	"updatedAt":"Time at which task was updated last time",
 	"isComplete:true/false
