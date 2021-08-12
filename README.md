@@ -58,7 +58,7 @@ Make sure you have installed all of the following prerequisites on your machine:
 
 1. Clone the repo
    ```
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/pawan43563/TodolistBackend.git
    ```
 2. Install NPM packages
    ```
@@ -109,7 +109,8 @@ Request on /tasks/:id with valid request body will create new task.
 ```json
 {
 	"content": "Task content",
-	"createdAt": "Time at which task was created"
+	"createdAt": "Time at which task was created ",
+  "updatedAt":"Some date
 }
 ```
 
