@@ -24,7 +24,7 @@ const requestValidation=(req,res,next)=>{
     }
 
     flag = Validkeys.every((key)=>Object.keys(req.body).includes(key));
-    if(Validkeys.length !== Object.keys(req.body).length && !flag){
+    if(!flag){
         return sendResponse({
             res,
             statusCode: 404,

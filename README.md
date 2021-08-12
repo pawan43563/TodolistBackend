@@ -26,6 +26,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#future-scope">Future Scope</a></li>
    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -166,7 +167,10 @@ Request with specified id will delete the task from our file.
     └── taskRouter.js
 ```
 
+### Future Scope
 
+1. Using Database.
+2. Integrating backend with the frontend.
 
 
 
@@ -184,5 +188,5 @@ Pawan Sharma - pawan.ps43563@gmail.com
 [gettaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/getbyid.png
 [addtask]:https://raw.githubusercontent.com/pawan43563/Images/main/addnewtask.png
 [updatetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/updatebyid.png
-[deletetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/deletetaskbyid.png
+[deletetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/deletebyid.png
 
