@@ -5,7 +5,8 @@ const sendResponse=require("../utils/sendResponse")
 
 const dataSource=path.join(__dirname,"..","data","tasks.json");
 const Tasks=JSON.parse(fs.readFileSync(dataSource,"utf-8"));
-const Task=require("../models/taskModel")
+const Task=require("../models/taskModel");
+const { timeLog } = require("console");
 
 
 // validation 
@@ -42,7 +43,9 @@ const requestValidation=(req,res,next)=>{
 // Create Task and add it to file if valid
 const addTask=(req,res)=>{
     let newTask=new Task(req.body);
-    Tasks.push(newTask);
+    Tasks.push(newTask)
+
+
     fs.writeFile(dataSource,JSON.stringify(Tasks),(err)=>{
         if(err){
             Tasks.pop();
@@ -129,7 +132,23 @@ const updateTaskById=(req,res)=>{
     })
 }
 
-
+const deleteAll=(req,res)=>{
+    Tasks.splice(0,Tasks.length)
+    fs.writeFile(dataSource,JSON.stringify(Tasks),(err)=>{
+        if(err){
+            return sendResponse({
+                res,
+                statusCode:404,
+                message:"Error While Deleting",
+                error:"Error"})
+        }
+        sendResponse({
+            res,
+            statusCode:200,
+            message:"Tasks Deleted Successfully",
+            data:"Deleted"})
+    })
+}
 
 
 module.exports={
@@ -139,6 +158,7 @@ module.exports={
     deleteTaskById,
     updateTaskById,
     requestValidation,
+    deleteAll
 
 }
 
