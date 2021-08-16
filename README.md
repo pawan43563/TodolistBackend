@@ -175,7 +175,7 @@ Request with specified id will delete the task from our file.
 
 ### Postman
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/28398b871e7a5dd5234a)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/28398b871e7a5dd5234a?action=collection%2Fimport)
 
 
 

@@ -12,9 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 
 
-let text=`<embed type="type/markdown" src="https://pawan43563.github.io/TodolistBackend/" height="100%" width="100%" />`;
 
-fs.writeFileSync("./public/index.html", text);
 
 app.use("/tasks",taskrouter)
 
