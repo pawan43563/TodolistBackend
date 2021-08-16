@@ -27,6 +27,8 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
     <li><a href="#future-scope">Future Scope</a></li>
+    <li><a href="#postman">Run it on Postman</a></li>
+    <li><a href="#deployment">Deployment</a></li>
    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -177,7 +179,13 @@ Request with specified id will delete the task from our file.
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/28398b871e7a5dd5234a?action=collection%2Fimport)
 
+### Deployment
+Backend:
+[Heroku](https://lit-brushlands-91579.herokuapp.com/)
 
+Frontend:
+[Github Live Link](https://pawan43563.github.io/Todolist-frontend/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/045594be-c0b7-44d8-95bc-660867ec7b91/deploy-status)](https://app.netlify.com/sites/hardcore-williams-7a402a/deploys)
 
 <!-- CONTACT -->
 ## Contact
