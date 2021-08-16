@@ -26,6 +26,7 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#project-structure">Project Structure</a></li>
+    <li><a href="#features">Features</a></li>
     <li><a href="#future-scope">Future Scope</a></li>
     <li><a href="#postman">Run it on Postman</a></li>
     <li><a href="#deployment">Deployment</a></li>
@@ -168,6 +169,13 @@ Request with specified id will delete the task from our file.
 └── routes
     └── taskRouter.js
 ```
+### Features
+1. When User is offline and server is online than he/she won't be able to make request to the backend and appropiate error will be shown.
+    ![alt text][clienterror]
+
+2. When User is online and server is offline than request made by user will not take place and appropiate error will be shown.
+    ![alt text][servererror]
+
 
 ### Future Scope
 
@@ -197,4 +205,6 @@ Pawan Sharma - pawan.ps43563@gmail.com
 [addtask]:https://raw.githubusercontent.com/pawan43563/Images/main/addnewtask.png
 [updatetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/updatebyid.png
 [deletetaskbyid]:https://raw.githubusercontent.com/pawan43563/Images/main/deletebyid.png
+[clienterror]:https://raw.githubusercontent.com/pawan43563/Images/main/client-error.png
+[servererror]:https://raw.githubusercontent.com/pawan43563/Images/main/servererror.png
 
