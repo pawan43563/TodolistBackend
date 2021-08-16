@@ -8,7 +8,13 @@ app.use(cors())
 
 app.use(express.json());
 app.use(express.urlencoded({extended:false}));
+
+
+let text=`<embed type="type/markdown src="https://github.com/pawan43563/TodolistBackend/ height="100% width="100% / >`;
+
+
 app.use("/tasks",taskrouter)
+app.use(express.static("public"))
 
 
 app.listen(process.env.PORT || 3000,()=>{
