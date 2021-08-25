@@ -5,39 +5,10 @@ const sendResponse=require("../utils/sendResponse")
 
 const dataSource=path.join(__dirname,"..","data","tasks.json");
 const Tasks=JSON.parse(fs.readFileSync(dataSource,"utf-8"));
-const Task=require("../models/taskModel");
-const { timeLog } = require("console");
+const Task=require("../models/taskContructor");
 
 
-// validation 
-const requestValidation=(req,res,next)=>{
-    if(!req.body.content){
-        return sendResponse({
-            res,
-            statusCode: 404,
-            message: "Empty content",
-            error: "Empty content not allowed",
-        });
-    }
-    let Validkeys=["content","createdAt","updatedAt"];
-    if(req.params.taskId){
-        Validkeys.push("isComplete")
-    }
 
-    flag = Validkeys.every((key)=>Object.keys(req.body).includes(key));
-    if(!flag){
-        return sendResponse({
-            res,
-            statusCode: 404,
-            message: "Invalid Keys",
-            error: "Invalid Request",
-        });
-    }
-
-
-    next();
-
-}
 
 
 // Create Task and add it to file if valid
@@ -157,7 +128,6 @@ module.exports={
     addTask,
     deleteTaskById,
     updateTaskById,
-    requestValidation,
     deleteAll
 
 }
