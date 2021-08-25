@@ -189,11 +189,11 @@ Request with specified id will delete the task from our file.
 
 ### Deployment
 Backend:
-[Heroku](https://lit-brushlands-91579.herokuapp.com/)
+[Heroku](https://polar-woodland-07461.herokuapp.com/)
 
 Frontend:
-[Github Live Link](https://pawan43563.github.io/Todolist-frontend/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/045594be-c0b7-44d8-95bc-660867ec7b91/deploy-status)](https://app.netlify.com/sites/hardcore-williams-7a402a/deploys)
+[Github Live Link](https://pawan43563.github.io/Todolist-Frontend-/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/045594be-c0b7-44d8-95bc-660867ec7b91/deploy-status)](https://naughty-minsky-ced17d.netlify.app/)
 
 <!-- CONTACT -->
 ## Contact
