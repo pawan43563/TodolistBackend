@@ -175,12 +175,13 @@ Request with specified id will delete the task from our file.
 
 2. When User is online and server is offline than request made by user will not take place and appropiate error will be shown.
     ![alt text][servererror]
+ 
+3. Based on mode provided data will be saved to file system or database.
 
 
 ### Future Scope
 
-1. Using Database.
-2. Integrating backend with the frontend.
+1. For every user unique todo list will be shown.
 
 
 ### Postman
