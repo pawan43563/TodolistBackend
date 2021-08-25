@@ -193,7 +193,7 @@ Backend:
 
 Frontend:
 [Github Live Link](https://pawan43563.github.io/Todolist-Frontend-/)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/045594be-c0b7-44d8-95bc-660867ec7b91/deploy-status)](https://naughty-minsky-ced17d.netlify.app/)
+[![Netlify Status](https://naughty-minsky-ced17d.netlify.app/)
 
 <!-- CONTACT -->
 ## Contact
